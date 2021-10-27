@@ -102,7 +102,7 @@ const animalFilter = icons.filter(icon => icon.type === 'animal')
 const vegetableFilter = icons.filter(icon => icon.type === 'vegetable')
 const userFilter = icons.filter(icon => icon.type === 'user')
 
-const cardContainer = document.querySelector('.cardContainer');
+const cardContainer = document.getElementById('cardContainer');
 const filterSelect = document.getElementById('iconsFilter');
 
 icons.forEach(element => createCard(element));
